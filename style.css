@@ -32,3 +32,42 @@ body{
     background-color:rgb(235, 214, 218);
     text-align: center;
 }
+
+.item-link:hover{
+    opacity: 0.9;
+    color: brown;
+}
+
+.item{
+    margin-bottom: 10px;
+    flex: 1 1 0;
+}
+
+.item-image{
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+.item-image:hover{
+    transform: scale(1.05, 1.05);
+    transition: transform 1s;
+}
+.item-name{
+    font-family:"Booter - Zero zero", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.home-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+@font-face {
+    font-family: "Booter - zero zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+        url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+}
